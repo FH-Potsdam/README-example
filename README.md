@@ -16,6 +16,8 @@ I suggest you use the [Atom Editor](https://atom.io/) with the [Markdown Preview
 ![and also gif animations](images/anim.gif)  
 ![it is also possible to add images from external sources](https://octodex.github.com/images/octobiwan.jpg)  
 
+You can not add videos directly. These will have to be on vimeo.com or youtube.com.
+
 ##Prerequisite  
 
 >something that is required in advance; "Latin was a prerequisite for admission"  
@@ -39,37 +41,54 @@ In the dependencies section you can tell the reader what your project relies on.
 
 Here you tell what should be done to install your project. You could tell him to clone it with git and run some install script or just provide all the code to install all packages on a Raspberry Pi. This should be done in a code block if it is code. You can write code inline by enclosing it in ticks \` ` like this` or you can use 4 whitespaces like in the example below.  
 
-    git clone 
+    git clone https://github.com/fabiantheblind/README.git
+    cd README
 
+Or for example:  
 
+    sudo apt-get update && sudo apt-get install python-dev python-rpi.gpio
 
 ##Usage  
 
-Do that thing and that
-
-    code with four spaces
+Now here you actually explain how to use your project. This could be some code or maybe just omething like hit "Run" in processing.  
 
 ##Something else  
 
-Paragraphs can be created by adding two whitespaces.  
+Maybe you have to say something else. This could go here. Did I mention that you can also declare headings? The headings are like in html. You can write them like this:  
 
-Images are added like this  
+    # Heading 1
+    ## Heading 2
+    ### Heading 3
+    #### Heading 4
+    ##### Heading 5
+    ###### Heading 6
 
-    ![]()
+This will convert to:  
 
-
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 ##Realted Works  
+
+List some related works an inspiration if you have some.  
 
 - [Very interesting](http://example.com)  
 
 ##Thanks  
 
+Give thanks to those whe deserve it.  
+
 ##Contact  
 
-Write me an email <me@example.com> or contact me on twitter @thisisme  
+Add a contact. Write me an email <me@example.com> or contact me on twitter @thisisme  
 
 ##License  
+
+And don't forget the license!
 
                 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
